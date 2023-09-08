@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+body{
+    background-color: rgb(62, 165, 184);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 44px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding:0 10px;
+}
+
+.brand img{
+    width: 35px;
+    padding: 0 6px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: rgb(177, 137, 84);
+    color: cornsilk;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 30px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 14px;
+    background-image: url(bg.jpg);
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: wheat;
+    bottom: 0;
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressbar{
+    width: 90vw;
+    cursor: pointer;
+    
+}
+.Songitem{
+    height: 60px;
+    display: flex;
+    background-color: darksalmon;
+    width: 100%;
+    color: black;
+    text-align: center; 
+    justify-content: space-between;   
+    margin: 20px 0;
+    border-radius: 9%;   
+    padding: 13px;
+    border-radius: 30px;    
+}
+.Songitem img{
+    width: 63px;
+    margin: 0 23px ;
+    
+}
+
+.songlist{
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.Timestamp{
+    margin: 0 23px 0;
+}
+
+.Timestampi{
+    cursor: pointer;
+}
+.songInfo{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity is ease-in
+}
+
+This is me archisman from spotify live and this is who i am 
+i just wanna be archisman
+
+.songInfo{
+    text-align: center;
+    
+}
+
